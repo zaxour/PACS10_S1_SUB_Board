@@ -26732,8 +26732,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="C26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="E" package3d_urn="urn:adsk.eagle:package:23425/2" value="100u"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GNDA" device=""/>
-<part name="R34" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="33k"/>
-<part name="R32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100k"/>
+<part name="R32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="33k"/>
+<part name="R34" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100k"/>
 <part name="R31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="33k"/>
 <part name="R33" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100k"/>
 <part name="C117" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-US" device="D" package3d_urn="urn:adsk.eagle:package:23424/2" value="1u"/>
@@ -30374,11 +30374,11 @@ C111 --&gt; C102</text>
 <instance part="GND13" gate="1" x="302.26" y="193.04" smashed="yes">
 <attribute name="VALUE" x="299.72" y="193.04" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R34" gate="G$1" x="261.62" y="172.72" smashed="yes">
+<instance part="R32" gate="G$1" x="261.62" y="172.72" smashed="yes">
 <attribute name="NAME" x="257.81" y="174.2186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="257.81" y="169.418" size="1.778" layer="96"/>
 </instance>
-<instance part="R32" gate="G$1" x="284.48" y="160.02" smashed="yes">
+<instance part="R34" gate="G$1" x="284.48" y="160.02" smashed="yes">
 <attribute name="NAME" x="280.67" y="161.5186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="280.67" y="156.718" size="1.778" layer="96"/>
 </instance>
@@ -31163,15 +31163,15 @@ C111 --&gt; C102</text>
 <junction x="231.14" y="185.42"/>
 <wire x1="231.14" y1="172.72" x2="256.54" y2="172.72" width="0.1524" layer="91"/>
 <junction x="231.14" y="172.72"/>
-<pinref part="R34" gate="G$1" pin="1"/>
+<pinref part="R32" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$46" class="0">
 <segment>
 <pinref part="IC10" gate="C" pin="-IN"/>
-<pinref part="R34" gate="G$1" pin="2"/>
+<pinref part="R32" gate="G$1" pin="2"/>
 <wire x1="276.86" y1="172.72" x2="271.78" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="R32" gate="G$1" pin="1"/>
+<pinref part="R34" gate="G$1" pin="1"/>
 <wire x1="271.78" y1="172.72" x2="266.7" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="160.02" x2="271.78" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="160.02" x2="271.78" y2="172.72" width="0.1524" layer="91"/>
@@ -31180,7 +31180,7 @@ C111 --&gt; C102</text>
 </net>
 <net name="CART_R+" class="0">
 <segment>
-<pinref part="R32" gate="G$1" pin="2"/>
+<pinref part="R34" gate="G$1" pin="2"/>
 <wire x1="289.56" y1="160.02" x2="299.72" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="160.02" x2="299.72" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="IC10" gate="C" pin="OUT"/>
